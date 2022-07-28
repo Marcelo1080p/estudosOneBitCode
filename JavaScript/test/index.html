@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert('Bem-Vindo')
+        let nome = prompt("Informe o seu nome: ")
+        let idade= prompt("Qual a sua idade: ")
+        confirmacao = confirm(`Confirma que você tem ${idade} anos ?`)
+        if (confirmacao == true){
+            alert(`nome: ${nome}, tem ${idade} e ele confirmou que tem ${idade} anos`)
+        } else if (confirmacao == false){
+            alert(`nome: ${nome}, tem ${idade} e ele não confirmou que tem ${idade} anos`)
+        }
+        
+    </script>
+</body>
+</html>

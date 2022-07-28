@@ -1,0 +1,7 @@
+flex-basis: 350px; É O TAMANHO DA WIDTH
+
+flex-grow: 1; = PREENCHE NO ESPAÇO EM QUE ESTA FALTANDO, IGUALMENTE
+
+flex-shrink: 1; = DIMINUI POR IGUAL
+
+FLEX =

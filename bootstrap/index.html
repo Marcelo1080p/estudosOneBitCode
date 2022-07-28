@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: aqua;
+            width: 350px;
+            height: 350px;
+        }
+        .b {
+            border-radius: 50%;
+            animation: animacao 3s infinite ease;
+            background-repeat: no-repeat;
+            background-size: 300% 300%;
+        }
+
+        @keyframes animacao {
+            from {
+                background: linear-gradient(90deg, #E75590, #00C2CB);
+                width: 500px;
+                height: 500px;
+            }
+            to {
+                width: 350px;
+                height: 350px;
+                background: linear-gradient(90deg, #00C2CB, #E75590);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div onclick="test()"></div>
+    
+    
+    <script>
+        function test() {
+            let troca = document.querySelector('div')
+            troca.classList.toggle('b')
+            if(document.querySelector('div')  ') {
+                console.log('b')
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="manipulando-styles.js"></script>
+    <style>
+        p.red-color {
+            color: red;
+            
+        }
+
+
+        p.font-family {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="button" onclick="setbluebackground()" value="Fundo Azul">
+
+    <input type="button" onclick="settranspatentbackground()" value="Fundo Transparente">
+
+    <input type="button" onclick="setredcolor()" value="Fonte Vermelha">
+
+    <input type="button" onclick="removeredcolor()" value="Fonte Normal">
+    <br>
+    <p id="style-text">
+        Manipulando css via DOM
+    </p>
+</body>
+</html>
